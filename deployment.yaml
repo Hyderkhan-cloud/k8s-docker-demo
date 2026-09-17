@@ -15,5 +15,6 @@ spec:
       containers:
         - name: k8s-demo
           image: khanhyder4/k8s-docker-demo:v1
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
